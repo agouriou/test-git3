@@ -77,6 +77,7 @@
    * @private
    */
   function _isHorizontal ( graph ) {
+    console.log('Coucou coucou!');
     return (graph.orientation === "horizontal" || graph.orientation === "horizontal-reverse");
   }
 
